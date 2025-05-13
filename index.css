@@ -1,0 +1,95 @@
+.titulo{
+    background-color: floralwhite;
+    border: 3px solid #685ec7;
+    
+}
+
+:root{
+
+    --base-pixel: 12px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#fec89a;
+}
+
+.amorcito{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lalitoo{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-color:#ef7b45;
+    border-radius: 3px;
+}
+
+.lelo{
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color:#ffe5d9;
+    border-radius: 5px;
+}
+
+.imagen{
+    width: 100%;
+
+
+}
+.h1{
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    text-decoration: underline;
+    
+    
+}
+
+h3 {
+    font-size: 24px;
+    font-style: italic;  
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;  
+}
+
+.momita{
+    margin-left: 24px;
+    
+}
+
+ol{
+    padding-left: 24px;
+}
+
+h1::before{
+    content: "☆";
+    color:#685ec7;
+    
+}
+h1::after{
+    content: "☆";
+    color:#685ec7;
+}
