@@ -186,3 +186,58 @@ footer{
 .card-imagen{
     width: 100%;
 }
+
+/*a partir de aca va index3.html*/
+
+.cajazul{
+    margin-top: 24px;
+    margin-right: 24px;
+    margin-left: 24px;
+    background-color:#ffe5d9;
+    border-radius: 5px;
+    border: solid orange;
+    width: 50%;
+    
+}
+
+.cajaroja{
+    margin-top: 24px;
+    margin-right: 24px;
+    margin-left: 24px;
+    background-color:#ffe5d9;
+    border-radius: 5px;
+    border: solid orange;
+    width: 50%;
+}
+
+.cajamadre{
+    display: flex;
+    width: 100%;
+}
+
+.itemazul{
+    width: 50%;
+    margin: 24px;
+    display: block;
+    justify-content: center;
+
+
+}
+
+.itemrojo{
+    
+}
+
+.azulina{
+    font-size:24px;
+}
+
+.boton{
+    display: flex ;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+button{
+    font: 1.5em sans-serif;
+}
