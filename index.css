@@ -52,8 +52,18 @@ body{
     display: flex;
     justify-content: center;
     font-style: italic;
-    text-decoration: underline
+    text-decoration: underline;
+    position: relative;
+    animation:entrardesdeizq .3s ease;
+}
 
+@keyframes entrardesdeizq{
+    from{
+        transform: translateX(-200%);
+    }
+    to{
+        transform: translateX(0);
+    }
 }
 
 .imagen{
@@ -143,7 +153,9 @@ footer{
     display: flex;
     justify-content: center;
     font-style: italic;
-    text-decoration: underline
+    text-decoration: underline;
+    position: relative;
+    animation:entrardesdeizq .3s ease; 
 }
 
 .body2{
@@ -225,7 +237,7 @@ footer{
 }
 
 .itemrojo{
-    
+    font-size: 24px;
 }
 
 .azulina{
@@ -240,4 +252,9 @@ footer{
 
 button{
     font: 1.5em sans-serif;
+}
+
+button:hover{
+    background-color: #ef7b45;
+    font-weight: bold;
 }
