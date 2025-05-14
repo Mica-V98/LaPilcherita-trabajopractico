@@ -19,23 +19,25 @@ p{
 body{
     display: flex;
     justify-content: space-around;
-    
-    background-color:#fec89a;
+     background-color:#fec89a;
 }
 
 .amorcito{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .lalitoo{
     font-size: 24px;
+    margin-right: 24px;
+    margin-left: 24px;
     margin-top: 24px;
     margin-bottom: 24px;
     background-color:orange;
     border-radius: 3px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 300px;
 
 }
@@ -125,5 +127,40 @@ h1::after{
 }
 
 footer{
+    text-align: center;
     margin-top: 24px;
+}
+
+/*a partir de aca es el index2*/
+
+.titulo2{
+    margin-left: 24px;
+    margin-right: 24px;
+     background-color:#ffe5d9;
+    border-radius: 5px;
+    border: solid orange;
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    text-decoration: underline
+}
+
+.body2{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-div2{
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    margin-left: 24px;
+    background-color:orange;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
 }
