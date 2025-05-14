@@ -1,8 +1,4 @@
-.titulo{
-    background-color: floralwhite;
-    border: 3px solid #685ec7;
-    
-}
+
 
 :root{
 
@@ -16,13 +12,14 @@ p{
     margin-right: 24px;
 }
 *{
+    
     box-sizing: border-box;
 }
 
 body{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    
     background-color:#fec89a;
 }
 
@@ -32,10 +29,15 @@ body{
 }
 
 .lalitoo{
+    font-size: 24px;
     margin-top: 24px;
     margin-bottom: 24px;
-    background-color:#ef7b45;
+    background-color:orange;
     border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+
 }
 
 .lelo{
@@ -43,41 +45,31 @@ body{
     margin-right: 24px;
     background-color:#ffe5d9;
     border-radius: 5px;
-}
-
-.imagen{
-    width: 100%;
-
-
-}
-.h1{
+    border: solid orange;
     font-size: 72px;
     display: flex;
     justify-content: center;
     font-style: italic;
-    text-decoration: underline;
-    
-    
+    text-decoration: underline
+
 }
 
-h3 {
-    font-size: 24px;
-    font-style: italic;  
-    padding-left: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-h2{
-    font-size: 36px;
-    display: flex;
-    justify-content: center;
-    font-style: italic;  
+.imagen{
+    width: 100%;
 }
 
 .momita{
-    margin-left: 24px;
     
+    margin-top: 24px;
+    margin-right: 24px;
+    margin-left: 24px;
+    background-color:#ffe5d9;
+    border-radius: 5px;
+    border: solid orange;
+}
+
+h4{
+    padding-left: 12px;
 }
 
 ol{
@@ -85,11 +77,53 @@ ol{
 }
 
 h1::before{
-    content: "☆";
-    color:#685ec7;
+    content: "⊱";
+    color:#ef7b45;
     
 }
 h1::after{
-    content: "☆";
-    color:#685ec7;
+    content: "⊰";
+    color:#ef7b45;
+}
+
+.vidamia{
+    font-size: 24px; 
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color:#ffe5d9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    gap:24px;
+    border: solid orange;
+}
+
+.corazon{
+    font-size: 16px; 
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color:#ffe5d9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    border: solid orange;
+}
+
+.item-1{
+    flex-grow: 1;
+     background-color: orange;
+     padding: 10px;
+}
+
+.item-2{
+    flex-grow: 2;
+     background-color:#ffe5d9;
+     padding: 10px;
+}
+
+footer{
+    margin-top: 24px;
 }
