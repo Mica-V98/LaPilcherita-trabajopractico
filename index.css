@@ -182,3 +182,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
 }
+
+.card-imagen{
+    width: 100%;
+}
